@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elhabbab\\source\\repos\\ConsoleApp2\\Collections\\Collections.csproj",
+      "projectUniqueName": "C:\\Users\\Elhabbab\\source\\repos\\DataStructures_Implementation_C#\\Collections\\Collections.csproj",
       "projectName": "Collections",
-      "projectPath": "C:\\Users\\Elhabbab\\source\\repos\\ConsoleApp2\\Collections\\Collections.csproj",
+      "projectPath": "C:\\Users\\Elhabbab\\source\\repos\\DataStructures_Implementation_C#\\Collections\\Collections.csproj",
       "packagesPath": "C:\\Users\\Elhabbab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elhabbab\\source\\repos\\ConsoleApp2\\Collections\\obj\\",
+      "outputPath": "C:\\Users\\Elhabbab\\source\\repos\\DataStructures_Implementation_C#\\Collections\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
