@@ -1,0 +1,5 @@
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\Collections\bin\Debug\Collections.dll
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\Collections\bin\Debug\Collections.pdb
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\Collections\obj\Debug\Collections.dll
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\Collections\obj\Debug\Collections.pdb

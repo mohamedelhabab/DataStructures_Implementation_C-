@@ -1,0 +1,10 @@
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\ConsoleApp\bin\Debug\ConsoleApp2.exe.config
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\ConsoleApp\bin\Debug\ConsoleApp2.exe
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\ConsoleApp\bin\Debug\ConsoleApp2.pdb
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\ConsoleApp\obj\Debug\DataStructures.csprojResolveAssemblyReference.cache
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\ConsoleApp\obj\Debug\DataStructures.csproj.CoreCompileInputs.cache
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\ConsoleApp\obj\Debug\ConsoleApp2.exe
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\ConsoleApp\obj\Debug\ConsoleApp2.pdb
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\ConsoleApp\bin\Debug\Collections.dll
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\ConsoleApp\bin\Debug\Collections.pdb
+C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\ConsoleApp\obj\Debug\DataStructures.csproj.CopyComplete

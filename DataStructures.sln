@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "ConsoleApp2\DataStructures.csproj", "{D230EC12-12A4-4A25-A3E1-C317E4619FF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "ConsoleApp\DataStructures.csproj", "{D230EC12-12A4-4A25-A3E1-C317E4619FF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{CA9E1392-6E6F-4ACF-BF57-DFE9CB08F39A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{D5619FEC-8245-4470-9902-4B1F445607C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{D230EC12-12A4-4A25-A3E1-C317E4619FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D230EC12-12A4-4A25-A3E1-C317E4619FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D230EC12-12A4-4A25-A3E1-C317E4619FF0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CA9E1392-6E6F-4ACF-BF57-DFE9CB08F39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA9E1392-6E6F-4ACF-BF57-DFE9CB08F39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA9E1392-6E6F-4ACF-BF57-DFE9CB08F39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA9E1392-6E6F-4ACF-BF57-DFE9CB08F39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5619FEC-8245-4470-9902-4B1F445607C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5619FEC-8245-4470-9902-4B1F445607C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5619FEC-8245-4470-9902-4B1F445607C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5619FEC-8245-4470-9902-4B1F445607C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
