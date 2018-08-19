@@ -3,3 +3,8 @@ C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\Collections\bin\
 C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
 C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\Collections\obj\Debug\Collections.dll
 C:\Users\Elhabbab\source\repos\DataStructures_Implementation_C#\Collections\obj\Debug\Collections.pdb
+C:\Users\Mohamed Elhabbab\Documents\GitHub\DataStructures_Implementation_cSharp\Collections\bin\Debug\Collections.dll
+C:\Users\Mohamed Elhabbab\Documents\GitHub\DataStructures_Implementation_cSharp\Collections\bin\Debug\Collections.pdb
+C:\Users\Mohamed Elhabbab\Documents\GitHub\DataStructures_Implementation_cSharp\Collections\obj\Debug\Collections.csprojResolveAssemblyReference.cache
+C:\Users\Mohamed Elhabbab\Documents\GitHub\DataStructures_Implementation_cSharp\Collections\obj\Debug\Collections.dll
+C:\Users\Mohamed Elhabbab\Documents\GitHub\DataStructures_Implementation_cSharp\Collections\obj\Debug\Collections.pdb

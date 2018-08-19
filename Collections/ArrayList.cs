@@ -35,6 +35,29 @@
 
         }
 
+        public int Insert(int index , object item)
+        {
+            object[] newList = new object[list.Length+1];
+            newList[index] = item;
+
+            for (int i = 0; i < list.Length; i++)
+            {
+                if (newList[i]==null)
+                {
+                    newList[i] = list[i];
+                }
+                else
+                {
+                    newList[i + 1] = list[i];
+                }
+            }
+
+            list = newList;
+            length = list.Length;
+
+            return list.Length - 1;
+        }
+
         public object Read(int index)
         {
             return list[index];

@@ -18,6 +18,12 @@ namespace ConsoleApp2
             arrList.Add(70);
             arrList.Add("End");
 
+            arrList.Insert(2, 5000);
+
+
+
+
+
             for (int i = 0; i <arrList.length ; i++)
             {
                 Console.WriteLine(arrList.Read(i));
