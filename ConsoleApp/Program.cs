@@ -20,10 +20,6 @@ namespace ConsoleApp2
 
             arrList.Insert(2, 5000);
 
-
-
-
-
             for (int i = 0; i <arrList.length ; i++)
             {
                 Console.WriteLine(arrList.Read(i));
