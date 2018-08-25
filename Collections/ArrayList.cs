@@ -5,7 +5,7 @@
         //array type must be object because arrayList is not a fixed type Collection
         object[] list;
 
-        public int length { get ; private set ; }
+        public int Length { get ; private set ; }
 
         public ArrayList()
         {
@@ -29,7 +29,7 @@
             newList[newList.Length - 1] = item;
 
             list = newList;
-            length = list.Length;
+            Length = list.Length;
 
             return list.Length - 1;
 
@@ -53,9 +53,29 @@
             }
 
             list = newList;
-            length = list.Length;
+            Length = list.Length;
 
             return list.Length - 1;
+        }
+
+        public void RemoveAt(int index)
+        {
+            int newListIndex = 0;
+
+            object[] newList = new object[list.Length-1];
+
+            for (int listPtr = 0; listPtr < list.Length;  listPtr++)
+            {
+                if (listPtr != index)
+                {
+                    newList[newListIndex] = list[listPtr];
+
+                    newListIndex++;
+                }
+            }
+
+            list = newList;
+            Length = list.Length;
         }
 
         public object Read(int index)

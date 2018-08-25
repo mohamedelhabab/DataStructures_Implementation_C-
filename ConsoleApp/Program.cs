@@ -15,15 +15,29 @@ namespace ConsoleApp2
             ArrayList arrList = new ArrayList();
 
             arrList.Add(20);
-            arrList.Add(70);
+            arrList.Add(30);
+            arrList.Add(40);
+            arrList.Add(50);
+
             arrList.Add("End");
 
             arrList.Insert(2, 5000);
 
-            for (int i = 0; i <arrList.length ; i++)
+            for (int i = 0; i <arrList.Length ; i++)
             {
                 Console.WriteLine(arrList.Read(i));
             }
+
+            Console.WriteLine("\nnew Array\n");
+
+            arrList.RemoveAt(5);
+
+            for (int i = 0; i < arrList.Length; i++)
+            {
+                Console.WriteLine(arrList.Read(i));
+            }
+
+
 
             Console.Read();
 
