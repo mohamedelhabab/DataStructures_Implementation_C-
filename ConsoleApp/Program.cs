@@ -9,11 +9,12 @@ namespace ConsoleApp2
 {
     class Program
     {
-        
-        static void Main(string[] args)
-        {
-            ArrayList arrList = new ArrayList();
 
+      public  static void Main(string[] args)
+        {
+            ArrayList arrList=new ArrayList();
+
+            //adding some items
             arrList.Add(20);
             arrList.Add(30);
             arrList.Add(40);
@@ -21,21 +22,29 @@ namespace ConsoleApp2
 
             arrList.Add("End");
 
+
+            //insert item in specific index
             arrList.Insert(2, 5000);
 
-            for (int i = 0; i <arrList.Length ; i++)
-            {
-                Console.WriteLine(arrList.Read(i));
-            }
+            Console.WriteLine("Original Array\n");
 
-            Console.WriteLine("\nnew Array\n");
+            //print all items
+            arrList.PrintItems();
+            Console.WriteLine("-----------------------------------------------");
+            Console.WriteLine("New Array\n");
 
+            //remove item at specific index
             arrList.RemoveAt(5);
+            arrList.ReplaceWith(0,7000);
 
-            for (int i = 0; i < arrList.Length; i++)
-            {
-                Console.WriteLine(arrList.Read(i));
-            }
+            //print all items
+            arrList.PrintItems();
+
+            Console.WriteLine("-----------------------------------------------");
+
+            Console.WriteLine($"index of {30} is {arrList.IndexOf(30)}");
+            Console.WriteLine($"index of {50} is {arrList.IndexOf(50)}");
+            Console.WriteLine($"index of End is {arrList.IndexOf("End")}");
 
 
 
