@@ -1,5 +1,7 @@
 ﻿using Collections;
 using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace ConsoleApp2
 {
@@ -8,7 +10,8 @@ namespace ConsoleApp2
 
       public  static void Main(string[] args)
         {
-            //ArrayList arrList=new ArrayList();
+            //Collections.ArrayList arrList =new Collections.ArrayList();
+
 
             ////adding some items
             //arrList.Add(20);
@@ -16,6 +19,7 @@ namespace ConsoleApp2
             //arrList.Add(40);
             //arrList.Add(50);
             //arrList.Add("End");
+
             ////insert item in specific index
             //arrList.Insert(2, 5000);
             //Console.WriteLine("Original Array\n");
@@ -37,11 +41,18 @@ namespace ConsoleApp2
 
             GenericArrayList<int> genericArrayList = new GenericArrayList<int>();
 
-            genericArrayList.Add(5);
             genericArrayList.Add(1);
+            genericArrayList.Add(5);
+            genericArrayList.Add(25);
 
-            int sum = genericArrayList.GetItem(0) + genericArrayList.GetItem(1);
-            Console.WriteLine("Sum is {0}",sum);
+            foreach (int item in genericArrayList)
+            {
+                Console.WriteLine(item);
+            }
+
+
+            //int sum = genericArrayList.GetItem(0) + genericArrayList.GetItem(1);
+            //Console.WriteLine("Sum is {0}",sum);
             Console.Read();
 
 

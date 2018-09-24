@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections;
 
 namespace Collections
 {
-    public class ArrayList
+    public class ArrayList:IEnumerable
     {
         //array type must be object because arrayList is not a fixed type Collection
         object[] list;
@@ -144,5 +145,13 @@ namespace Collections
             list[index] = item;
         }
 
+        public IEnumerator GetEnumerator()
+        {
+
+            for (int i = 0; i < list.Length; i++)
+            {
+                yield return list[i];
+            }
+        }
     }
 }

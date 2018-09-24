@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Collections
 {
-   public class GenericArrayList<T>
+    public class GenericArrayList<T> : IEnumerable<T> where  T : new()
     {
         //array type must be object because arrayList is not a fixed type Collection
         T[] list;
@@ -144,5 +146,20 @@ namespace Collections
             list[index] = item;
         }
 
+        public IEnumerator<T> GetEnumerator()
+        {
+            for (int i = 0; i < list.Length; i++)
+            {
+                yield return list[i];
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            for (int i = 0; i < list.Length; i++)
+            {
+                yield return list[i];
+            }
+        }
     }
 }
